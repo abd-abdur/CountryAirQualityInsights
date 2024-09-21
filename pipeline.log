@@ -1,0 +1,6 @@
+2024-09-20 17:22:05,207 - ERROR - Table not found on Wikipedia page. Check the HTML structure.
+2024-09-20 17:22:05,212 - INFO - Data saved to cleaned_data.csv
+2024-09-20 17:24:23,356 - ERROR - Table not found on Wikipedia page. Check the HTML structure.
+2024-09-20 17:24:23,365 - INFO - Data saved to cleaned_data.csv
+2024-09-20 17:24:35,701 - ERROR - Table not found on Wikipedia page. Check the HTML structure.
+2024-09-20 17:24:35,705 - INFO - Data saved to cleaned_data.csv
