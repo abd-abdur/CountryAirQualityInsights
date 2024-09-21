@@ -2,6 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # -------------------------------
 # Step 1: Scrape and Clean Population Data
@@ -195,8 +200,8 @@ def merge_datasets(df_population, df_air_quality):
 # -------------------------------
 
 def main():
-    # Replace with your own OpenAQ API key
-    api_key = 'e74fed8fe4215b0a72d8d7314977565153f6e5bcd08bb98156221fce9f48d0e9'
+
+    api_key = os.getenv('OPENAQ_API_KEY')
     
     # Scrape population data
     df_population = scrape_population_data()
